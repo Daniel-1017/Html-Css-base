@@ -1,0 +1,72 @@
+body {
+    
+}
+
+
+*,::before::after{box-sizing: border-box;}
+
+
+/* PAGE */
+.page {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row; /*di default flex-direction=row (non bisogna specificarlo)*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    background-color: #eee;
+
+    /*
+    align-items: flex-start;
+    align-items: center;
+    align-items: flex-end;
+
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse; */
+}
+
+.header-item {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.header-tel {
+    order: 2;
+}
+
+.header-logo {
+    order: 3;
+}
+
+.header-lang {
+    order: 1;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    flex-basis: 20%;
+    padding: 10px;
+
+    background-color: rgb(112, 199, 123);
+}
+
+.main {
+    flex-basis: 60%;
+    padding: 20px;
+
+    background-color: #ccc;
+}
+
+.footer {
+    background-color: #eee;    
+}

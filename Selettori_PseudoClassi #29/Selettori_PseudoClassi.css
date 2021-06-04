@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.containe {
+    width: 100%;
+    max-width: 800px;
+    padding: 15px;
+    margin: 20px auto;
+}
+
+.text {
+    margin-bottom: 40px;
+}
+
+.text > p {
+    color: red;
+}
+
+.text span {
+    background-color: #eee;
+}
+
+.text span[title] {
+    text-decoration: underline;
+}
+
+.list {
+    margin-bottom: 40px;
+}
+
+.list li:nth-child(odd) {
+    color: blue;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+.label {
+    color: #ccc;
+}
+
+.checkbox:checked + .label {
+    color: #000;
+}
+
+/* .list p:first-child
+.list p:last-child
+.list p:nth-child(2) si specifica quale riga si vuole colorare
+.list p:nth-child(odd) si colora una riga si una no
+.list p:nth-child(even) si colora una riga si una no ma ma inizia dalla seconda
+.list p:first-of-type
+.list p:last-of-type */

@@ -1,0 +1,45 @@
+html {
+    font-size: 15px;
+}
+/* Se font size qui è 15px allora 1rem = a 15px */
+
+/* em invece eredita il suo valore dal font-soze della sua classe */
+
+body {
+    margin: 0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: #000;
+}
+
+.container {
+    width: 400px;
+    padding: 1rem;
+    margin: 20px auto;
+
+    background-color: #eee;
+}
+
+.title {
+    margin: 0 0 1rem;
+    font-size: 2rem;
+    color: #000;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.4em 0.8em;
+
+    background-color: #36b717;
+    border-radius: 0.4em;
+    box-shadow: 0 0 0.2em #000;
+
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-xl {
+    font-size: 2rem;
+}
