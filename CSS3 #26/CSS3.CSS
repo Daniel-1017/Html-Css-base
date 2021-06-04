@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+*,::before, ::after {box-sizing: border-box;}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* CSS3 */
+.element {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 20px;
+
+    background: #ccc;
+    border-radius: 40px;
+    opacity: 0.8;
+
+    box-shadow: -10px 10px 20px black inset, -10px 10px 20px black;
+
+    /* border-radius: 50%; diventa un cerchio */
+    /* border-radius: 10px 30px 50px 70px; 1 su.sin 2 su-des 3 giu-sin 4 giu-des */
+
+    /* border-top-left-radius: 20px;   
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+
+    /* border-radius: 10px 10px 10px 10px / 5px 5px 2px 5px; */
+    /* border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px; */
+}
+
+.element_title {
+    text-shadow: -2px 2px 2px lightcoral;
+}
+
+.text_area {
+    min-width: 250px;
+    max-width: 400px;
+    min-height: 150px;
+    max-height: 300px;
+    padding: 10px;
+
+    /* resize: none;
+    resize: horizontal;
+    resize: vertical; */
+
+
+    background: cornflowerblue;
+    color: #fff;
+}
+
+.btn {
+    background: green;
+    border: 1px solid blueviolet;
+    color: #fff;
+    padding: 10px 20px;
+
+    transition: background .2s linear;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #3a9112;
+    cursor: pointer;
+}
+
+.btn:active {
+    background: #2c760a;
+}

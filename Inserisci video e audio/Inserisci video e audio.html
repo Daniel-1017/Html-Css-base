@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Inserisci video e audio.css">
+    <title>Inserisci video e audio</title>
+</head>
+<body>
+
+<!--1 modo per aggiungere un video-->   <video src="../Video/videoplayback (1).mp4" width="720" height="400" controls loop muted poster="../Foto/natura-alberi.jpg"></video>
+
+<!--2 modo per aggiungere un video-->   <video width="720" height="400" controls loop muted poster="../Foto/natura-alberi.jpg">
+                                            <source src="../Video/videoplayback (1).mp4" type="video/mp4">
+                                        </video>
+
+<!--3 modo per aggiungere un video-->   <iframe width="560" height="315" src="https://www.youtube.com/embed/oD155zWANQg"
+                                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                                        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!--1 modo per aggiungere un audio-->   <audio src="" controls></audio>
+
+<!--2 modo per aggiungere un audio-->   <audio controls>
+                                            <source src="" type="audio/mpeg">
+                                        </audio>
+
+    <!-- CONTROLS AGGIUNGE I PULSANTI -->
+    <!-- LOOP LO FA ANDARE ALL'INFINITO -->
+    <!-- AUTOPLY LO FA PARTIRE IN AUTOMATICO SENZA SCHIACCIARE NINTE -->
+    <!-- MUTED LO FA PARTIRE SENZA VOLUME -->
+    <!-- POSTER AGGIUNGE UN IMMAGINE PRIMA CHE IL VIDEO PARTA -->
+
+
+</body>
+</html>
